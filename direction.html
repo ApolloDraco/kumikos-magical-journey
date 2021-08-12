@@ -1,0 +1,55 @@
+<html>
+
+  <head>
+
+    <script type="text/javascript" src="script.js"></script>
+    <title>Kumiko's Magical Journey</title>
+
+  </head>
+
+  <body>
+    <h1 align="center">Kumiko's Magical Journey</h1>
+
+    <div>
+      <p>There is a forest to your right and a billow of clouds in front of you.</p>
+      <p>Do you want to enter the forest or ascend the clouds?</p>
+    </div>
+
+    <div id="result"></div>
+    <div id="result2"></div>
+    <div id="result3"></div>
+    <div id="result4"></div>
+    <div id="result5"></div>
+    <div id="result6"></div>
+    <br>
+
+    <iframe src="https://www.youtube.com/embed/DJ8BfVDX4dM?autoplay=1" id="music"></iframe>
+
+    <div>
+      <button id="left1" onclick="Direction('left')">Forest</button>
+      <button id="right1" onclick="Direction('right')">Cloud</button>
+      <button id="escape1" onclick="Direction('escape')">End Game</button>
+    </div>
+
+    <br>
+
+    <div>
+      <button id="left2" style="display: none" onclick="Direction2('left2')">Follow fairy</button>
+      <button id="right2" style="display: none" onclick="Direction2('right2')">Return home</button>
+      <button id="escape2" style="display: none" onclick="Direction2('escape2')">End Game</button>
+    </div>
+
+    <div>
+      <button id="B" style="display: none" onclick="Direction3('B')">Fairy Homes</button>
+      <button id="C" style="display: none" onclick="Direction3('C')">Cloud Valley Entrance</button>
+    </div>
+
+    <div>
+      <button id="tryagain" style="display: none" onclick="TryAgain()">Try Again</button>
+    </div>
+
+    <div id="again"></div>
+
+  </body>
+
+</html>
