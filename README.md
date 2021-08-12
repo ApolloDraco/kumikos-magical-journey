@@ -1,0 +1,1 @@
+Kumiko's Magical Journey is a web game that I am developing. It compiles, but there are bugs that need to be worked out. It is a work in progress requiring expansion and optimization. It is written in html, css, and js.
